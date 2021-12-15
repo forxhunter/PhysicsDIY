@@ -1,0 +1,10 @@
+site_name: 物理学知识自学指南和笔记
+
+theme:
+  name: material
+repo_url: https://forxhunter.github.io/physics_diy.github.io/
+nav:
+  - 前言: 'index.md'
+  - 复杂系统: 
+    - 'Phase Transition & Renormalization Group': 'ComplexSystems/PTRG.md'
+    - '非线性动力学和混沌' : "ComplexSystems/NonlinearDynamics.md"
