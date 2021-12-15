@@ -2,7 +2,7 @@ site_name: 物理学知识自学指南和笔记
 
 theme:
   name: material
-repo_url: https://forxhunter.github.io/physics_diy.github.io/
+repo_url: https://github.com/forxhunter/PhysicsDIY/
 nav:
   - 前言: 'index.md'
   - 复杂系统: 
