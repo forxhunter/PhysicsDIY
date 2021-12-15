@@ -5,7 +5,7 @@ theme:
 repo_url: https://github.com/forxhunter/PhysicsDIY/
 edit_uri: https://github.com/forxhunter/PhysicsDIY/tree/main/edit/
 nav:
-  - 前言: 
+  - 前言: 'index.md'
   - 复杂系统: 
     - 'Phase Transition & Renormalization Group': 'ComplexSystems/PTRG.md'
     - '非线性动力学和混沌' : "ComplexSystems/NonlinearDynamics.md"
