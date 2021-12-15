@@ -414,8 +414,8 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   parameter spaces comparision 
 
-        <img src="./Notes_for_PatterFormation.assets/image-20211026152413765.png" alt="image-20211026152413765" style="zoom:67%;" />
-
+        
+        ![image-20211026152413765](./Notes_for_PatterFormation.assets/image-20211026152413765.png)
         ​	βR is the strength of the positive autoregulation of HetR
 
            HetR activates production of PatS [54], with strength βS
