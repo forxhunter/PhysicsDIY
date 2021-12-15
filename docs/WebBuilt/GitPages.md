@@ -8,12 +8,13 @@
 ## 创建一个Repo
 > 大部分翻译自：https://docs.github.com/cn/pages/quickstart
 1. 在任何页面的右上角，使用  下拉菜单选择 New repository（新建仓库）。
-    ![newrepo](GitPages.asset\create-repository-name-pages.png)
+    ![newrepo](.\GitPages.asset\create-repository-name-pages.png)
 
 2. 输入`username.github.io`作为仓库的名字。
 
     记得替换`username`成你的名字。例如，如果你的名字是`octocat`，那么仓库名字就是`octocat.github.io`。
     > 当然，根据我的测试也可以起任何别的名字
+
     ![name](GitPages.asset\create-repository-name-pages.png)
 3. 在仓库名称下，单击 Settings（设置）。
     ![sett](GitPages.asset\repo-actions-settings.png)
@@ -62,3 +63,4 @@
         ...         # other files needed
 ```
 更改其中内容
+## 配置自动更新
