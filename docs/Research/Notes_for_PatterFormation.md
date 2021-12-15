@@ -346,7 +346,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   Demographic noise would maintain these patterns by generating continual perturbations.
 
-        ![image-20211019173254213](.\Notes_for_PatterFormation.assets.\image-20211019173254213.png)
+        ![image-20211019173254213](./Notes_for_PatterFormation.assets/image-20211019173254213.png)
 
 +   calc: plankton-herbivore dynamics model
 
@@ -402,7 +402,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     <img src="./Notes_for_PatterFormation.assets/image-20211026144340379.png" alt="image-20211026144340379" style="zoom: 20%;" />
 
-    ​	![image-20211026144401984](.\Notes_for_PatterFormation.assets.\image-20211026144401984.png)
+    ​	![image-20211026144401984](./Notes_for_PatterFormation.assets/image-20211026144401984.png)
 
 +   stochastic model sim
 
@@ -410,7 +410,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   Patterns on a growing filament
 
-        ![image-20211026152621555](.\Notes_for_PatterFormation.assets.\image-20211026152621555.png) 
+        ![image-20211026152621555](./Notes_for_PatterFormation.assets/image-20211026152621555.png) 
 
     +   parameter spaces comparision 
 
