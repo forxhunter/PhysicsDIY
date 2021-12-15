@@ -1,4 +1,5 @@
-# physics_diy.github.io
+# Share of learning materials and notes in physics learning
 A good share of the books and courses to improve learn eifficiency
-## 协议
+## License
 MIT 协议
+Please remeber to follow MIT license always.
