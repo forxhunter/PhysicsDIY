@@ -11,7 +11,7 @@
 
 +   Bio image of the RD model: a system of cells interactin by the ligands and receptors
 
-    ![image-20210928105746419](.\Notes_for_PatterFormation.assets\image-20210928105746419.png)
+    ![image-20210928105746419](./Notes_for_PatterFormation.assets/image-20210928105746419.png)
 
 (Kondo, 2010)  in SOM
 
@@ -23,17 +23,17 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   RD model
 
-    ![image-20210928110017658](.\Notes_for_PatterFormation.assets\image-20210928110017658.png)
+    ![image-20210928110017658](./Notes_for_PatterFormation.assets/image-20210928110017658.png)
     +   u is activator
     +   v is inhibitor
 
 +   Turing's original paper:
 
-    ![image-20210928110035767](.\Notes_for_PatterFormation.assets\image-20210928110035767.png)
+    ![image-20210928110035767](./Notes_for_PatterFormation.assets/image-20210928110035767.png)
 
 +   RD model can generate six potential steady states 
 
-    ![image-20210928110311124](.\Notes_for_PatterFormation.assets\image-20210928110311124.png)
+    ![image-20210928110311124](./Notes_for_PatterFormation.assets/image-20210928110311124.png)
 
     (Kondo, 2010)
 
@@ -59,18 +59,18 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   math results: zero flux conditions(no external input)
 
-    ![image-20210928145416939](.\Notes_for_PatterFormation.assets\image-20210928145416939.png)
+    ![image-20210928145416939](./Notes_for_PatterFormation.assets/image-20210928145416939.png)
 
     +   stable to small perturbations without diffusion:
 
-        ![image-20210928145502221](.\Notes_for_PatterFormation.assets\image-20210928145502221.png)
+        ![image-20210928145502221](./Notes_for_PatterFormation.assets/image-20210928145502221.png)
         $$
         f_u\cdot g_v<0
         $$
         
     +   unstable with diffusion
     
-        ​[image-20210928150543073](.\Notes_for_PatterFormation.assets\image-20210928150543073.png)
+        ​[image-20210928150543073](./Notes_for_PatterFormation.assets/image-20210928150543073.png)
     
         
     
@@ -78,7 +78,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
     
 +   intuition: 
 
-    ​	![image-20210928150902446](.\Notes_for_PatterFormation.assets\image-20210928150902446.png)
+    ​	![image-20210928150902446](./Notes_for_PatterFormation.assets/image-20210928150902446.png)
 
     
 
@@ -94,7 +94,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 # progress of synthetic biological pattern  
 
-![image-20211010194245109](.\Notes_for_PatterFormation.assets\image-20211010194245109.png)
+![image-20211010194245109](./Notes_for_PatterFormation.assets/image-20211010194245109.png)
 
 >   Luo et al. 2019
 
@@ -257,7 +257,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 >   Satoshi Toda et al., (202010) Engineering synthetic morphogen systems that can program multicellular patterning
 
-![image-20211011154428629](.\Notes_for_PatterFormation.assets\image-20211011154428629.png)
+![image-20211011154428629](./Notes_for_PatterFormation.assets/image-20211011154428629.png)
 
 +   spatial distribution of morphogens can be regulated by the density of anchor protein and antimorphogen inhibitors
 
@@ -265,13 +265,13 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   create patterns with two & three distinct domains
 
-    ![image-20211011155728176](.\Notes_for_PatterFormation.assets\image-20211011155728176.png)
+    ![image-20211011155728176](./Notes_for_PatterFormation.assets/image-20211011155728176.png)
 
 ### Michael B. Elowitz:  Hedgehog (HH) pathway(long-range morphogen system)
 
 >   Pulin Li et al. 2018
 
-![image-20211011163055425](.\Notes_for_PatterFormation.assets\image-20211011163055425.png)
+![image-20211011163055425](./Notes_for_PatterFormation.assets/image-20211011163055425.png)
 
 +    the combination of **double-negative regulatory logic** and negative feedback through the PTCH receptor accelerates gradient formation and improves robustness to variation in the morphogen production rate compared with alternative design
 
@@ -279,7 +279,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 >   Subhayu Basu et al. 2005
 
-![image-20211011184805607](.\Notes_for_PatterFormation.assets\image-20211011184805607.png)
+![image-20211011184805607](./Notes_for_PatterFormation.assets/image-20211011184805607.png)
 
 +   results:
     +   which genetically engineered ‘receiver’ cells are programmed to formring-like patterns of differentiation based on chemical gradients of an acyl-homoserine lactone (AHL) signal that is synthesized by ‘sender’ cells.
@@ -288,7 +288,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 ### James Sharpe and Mark Isalan: all possible 3-node networks for stripe-forming
 
-![image-20211012222621128](.\Notes_for_PatterFormation.assets\image-20211012222621128.png)
+![image-20211012222621128](./Notes_for_PatterFormation.assets/image-20211012222621128.png)
 
 +   the four known types of incoherent feedforward loops35 (I-FFL: I1-I4).
 
@@ -328,7 +328,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   a reconstituted Nodal-Lefty network in mammalian cells spontaneously gives rise to a pattern
 
-        ![image-20211011164556756](.\Notes_for_PatterFormation.assets\image-20211011164556756.png)
+        ![image-20211011164556756](./Notes_for_PatterFormation.assets/image-20211011164556756.png)
 
     +   mathematical shows paras space similar to turing pattern 
 
@@ -350,7 +350,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   calc: plankton-herbivore dynamics model
 
-    ![image-20211019172526304](.\Notes_for_PatterFormation.assets\image-20211019172526304.png)
+    ![image-20211019172526304](./Notes_for_PatterFormation.assets/image-20211019172526304.png)
 
     +   we set p1 = 0 and p2 = p for transparency of analysis. This does not change the qualitative results. 
 
@@ -358,15 +358,15 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   original Turing Pattern condition:
 
-        ![image-20211019172855585](.\Notes_for_PatterFormation.assets\image-20211019172855585.png)
+        ![image-20211019172855585](./Notes_for_PatterFormation.assets/image-20211019172855585.png)
 
     +   **extrinsic noise** as white noise $\xi$
 
-        ![image-20211019224914459](.\Notes_for_PatterFormation.assets\image-20211019224914459.png)
+        ![image-20211019224914459](./Notes_for_PatterFormation.assets/image-20211019224914459.png)
 
     +   **intrinsic noise** 
 
-        ![image-20211019224900862](.\Notes_for_PatterFormation.assets\image-20211019224900862.png)
+        ![image-20211019224900862](./Notes_for_PatterFormation.assets/image-20211019224900862.png)
 
         
 
@@ -374,7 +374,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 ### Nigel Goldenfeld & Ron Weiss: sysnthetic bacterial population verifying stochastic turing pattern
 
-![image-20211019195937220](.\Notes_for_PatterFormation.assets\image-20211019195937220.png)
+![image-20211019195937220](./Notes_for_PatterFormation.assets/image-20211019195937220.png)
 
 +   the A3OC12HSL activator diffuses more slowly than the IC4HSL inhibitor
 
@@ -400,7 +400,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
     +   the diffusion constants of PatS- and HetNderived morphogens may be comparable.
     +   Anabaena filaments continually grow by cell growth and division.(not fixed spatial size)
 
-    <img src=".\Notes_for_PatterFormation.assets\image-20211026144340379.png" alt="image-20211026144340379" style="zoom: 20%;" />
+    <img src="./Notes_for_PatterFormation.assets/image-20211026144340379.png" alt="image-20211026144340379" style="zoom: 20%;" />
 
     ​	![image-20211026144401984](.\Notes_for_PatterFormation.assets.\image-20211026144401984.png)
 
@@ -414,7 +414,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   parameter spaces comparision 
 
-        <img src=".\Notes_for_PatterFormation.assets\image-20211026152413765.png" alt="image-20211026152413765" style="zoom:67%;" />
+        <img src="./Notes_for_PatterFormation.assets/image-20211026152413765.png" alt="image-20211026152413765" style="zoom:67%;" />
 
         ​	βR is the strength of the positive autoregulation of HetR
 
