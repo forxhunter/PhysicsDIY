@@ -8,3 +8,5 @@ nav:
   - 复杂系统: 
     - 'Phase Transition & Renormalization Group': 'ComplexSystems/PTRG.md'
     - '非线性动力学和混沌' : "ComplexSystems/NonlinearDynamics.md"
+  - 网站搭建:
+    - 'GitPages' : "WebBuilt/GitPages.md"
