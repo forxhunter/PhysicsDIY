@@ -62,5 +62,43 @@
         index.md    # homepage
         ...         # other files needed
 ```
-更改其中内容
-## 配置自动更新
+更改`mkdocs.yml`中内容:
+```yml
+site_name: MkLorum              # 网站的名字
+site_url: https://example.com/ #输入你的网址
+```
+这两个是必须的配置，随后你就可以选择配置
+## 配置自动更新by_Actions
+参考文章:[@SquidFuck](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
+1. 通过网站进入到之前创建的仓库，点击`Actions`。
+![actions](GitPages.asset\actions.png)
+2. 创建一个叫做`ci.yml`的Action。
+将以下代码复制到里面，点击部署，部署到`main`branch.
+```yml
+name: ci 
+on:
+  push:
+    branches: 
+      - master
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+
+```
+
+3.等价的，也可以直接创建一个目录`.github/worflows`在你的仓库中，然后在里面创建一个叫做`ci.yml`的文件。
+
+然后将上面的代码复制进去，然后保存。最后记得`commit+push`
+
+成功后的效果是这个样子的，如果你自动push代码到`main`分支中，这段代码可以自动将页面配置好，传到`gh-pages`分支。
+
+![actions_fi](/GitPages.asset/action_finished.png)
+注：如果刷新后页面没有更新，可以清楚浏览器缓存数据后，再次刷新。
