@@ -3,7 +3,7 @@ site_author: foxhunter
 theme:
   name: material
 repo_url: https://github.com/forxhunter/PhysicsDIY/
-edit_url: https://github.com/forxhunter/PhysicsDIY/edit/master/docs/
+edit_url: https://github.com/forxhunter/tree/main/edit/
 nav:
   - 前言: 'index.md'
   - 复杂系统: 
