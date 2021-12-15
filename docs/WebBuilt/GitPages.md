@@ -68,8 +68,38 @@
 site_name: MkLorum              # 网站的名字
 site_url: https://example.com/ #输入你的网址
 ```
-这两个是必须的配置，随后你就可以选择配置
+这两个是必须的配置，随后你就可以选择配置。
 
+4. 侧面栏的配置
+在`mkdocs.yml`中：
+```yml
+#这是这个网址的例子
+site_name: 物理学知识自学指南和笔记
+
+theme:
+  name: material
+repo_url: https://github.com/forxhunter/PhysicsDIY/
+nav:
+  - 前言: 'index.md'
+  - 复杂系统: 
+    - 'Phase Transition & Renormalization Group': 'ComplexSystems/PTRG.md'
+    - '非线性动力学和混沌' : "ComplexSystems/NonlinearDynamics.md"
+  - 网站搭建:
+    - 'GitPages' : "WebBuilt/GitPages.md"
+```
+在`nav`中加入一级栏和二级栏。相关文件夹和markdown文件需要放在`docs`中。
+5. 修改仓库的地址
+进入仓库的Settings，Page设置：
+
+将Source中Branch修改为`gh-pages`的`/(root)`
+
+点击Save。
+6. 做好任何修改后，使用命令
+```powershell
+mkdocs gh-pages
+```
+然后登陆你的账号，就没有然后了。
+后续可以通过配置自动更新，这样只需要把main的修改同步到在线的仓库里面就行。（参加下文）
 ## 配置自动更新by_Actions
 参考文章:[@SquidFuck](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
 1. 通过网站进入到之前创建的仓库，点击`Actions`。
@@ -105,3 +135,6 @@ jobs:
 ![actions_fi](./GitPages.asset/action_finished.png)
 
 注：如果刷新后页面没有更新，可以清楚浏览器缓存数据后，再次刷新。
+## 插入图片
+建议创建一个`template.asset`的文件夹，放入图片。
+引用时务必严格使用格式`./template.asset/example.png`，**一定不能使用`\`**。
