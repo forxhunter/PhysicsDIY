@@ -3,9 +3,9 @@ site_author: foxhunter
 theme:
   name: material
 repo_url: https://github.com/forxhunter/PhysicsDIY/
-edit_url: https://github.com/forxhunter/PhysicsDIY/tree/main/edit/
+edit_uri: https://github.com/forxhunter/PhysicsDIY/tree/main/edit/
 nav:
-  - 前言: 'index.md'
+  - 前言: 
   - 复杂系统: 
     - 'Phase Transition & Renormalization Group': 'ComplexSystems/PTRG.md'
     - '非线性动力学和混沌' : "ComplexSystems/NonlinearDynamics.md"
