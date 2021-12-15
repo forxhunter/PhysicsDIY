@@ -5,7 +5,7 @@
 +   图灵斑图是什么？(Turing Pattern)
 +   图灵斑图的失稳条件
 
-# Reaction Diffusion Model
+## Reaction Diffusion Model
 
 +   original problem: explain how biological spatial patterns are formed
 
@@ -37,7 +37,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     (Kondo, 2010)
 
-# Turing Pattern
+## Turing Pattern
 
 +   definition: a kind of nonlinear wave that is maintained by the
     dynamic equilibrium of the system (fig A, VI)
@@ -50,7 +50,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   An important feature of Turing´s model is that particular wavelengths in the substances' distribution will be amplified while other wavelengths will be suppressed
 
-# Turing Instability (diffusion-driven instability)
+## Turing Instability (diffusion-driven instability)
 
 >   Mathematical Biology II: Spatial Models and Biomedical Applications, Third Edition
 
@@ -92,13 +92,13 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 2. 参考前人文献，看基于细胞的图灵斑图，应该如何建模
 
-# progress of synthetic biological pattern  
+## progress of synthetic biological pattern  
 
 ![image-20211010194245109](./Notes_for_PatterFormation.assets/image-20211010194245109.png)
 
 >   Luo et al. 2019
 
-#### Non-autonomous patterns
+### Non-autonomous patterns
 
 +   with prepatterned environmental cues, like morphogen gradients
 
@@ -142,7 +142,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
      +   light-dark edges system: Tabor et al. 2009
 
-#### self-organized patterns
+### self-organized patterns
 
 +   with uniform initial conditions
 
@@ -207,9 +207,9 @@ two kinds of lingands u and v, which satisfy the following conditons:
          +   cell adhesion alone  can result in  various selforganized
              multicellular patterns.
 
-### tools to build synthetic patterns
+## tools to build synthetic patterns
 
-#### Cell−cell communication
+### Cell−cell communication
 
 +   bacterial quorum sensing and fungal pheromone communication (Hennig et al. 2015)
 
@@ -239,21 +239,21 @@ two kinds of lingands u and v, which satisfy the following conditons:
         >   (2016) Optically Controlled Oscillators in an Engineered Bioelectric
         >   Tissue. Phys. Rev. X 6, 031001.
 
-#### cell−cell adhesion
+### cell−cell adhesion
 
 +   cadherin (Halbleib et al. 2006)
 +   nanobody-based system (Glass et al. 2018)
 
-#### mathematical modeling
+## mathematical modeling
 
 +   identify the essential components and network topology through screening of the design space(Schaerli et al. 2014 )
 +   identify the important constraints for the parameter space(Cao et al. 2016)
 
-# Leading Groups and Major Contributions
+## Leading Groups and Major Contributions
 
-## Morphogeon gradients
+### Morphogeon gradients
 
-### Satoshi Toda: Diffusible synNotch
+#### Satoshi Toda: Diffusible synNotch
 
 >   Satoshi Toda et al., (202010) Engineering synthetic morphogen systems that can program multicellular patterning
 
@@ -267,7 +267,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     ![image-20211011155728176](./Notes_for_PatterFormation.assets/image-20211011155728176.png)
 
-### Michael B. Elowitz:  Hedgehog (HH) pathway(long-range morphogen system)
+#### Michael B. Elowitz:  Hedgehog (HH) pathway(long-range morphogen system)
 
 >   Pulin Li et al. 2018
 
@@ -275,7 +275,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +    the combination of **double-negative regulatory logic** and negative feedback through the PTCH receptor accelerates gradient formation and improves robustness to variation in the morphogen production rate compared with alternative design
 
-### Ron Weiss :AHL-GFP system
+#### Ron Weiss :AHL-GFP system
 
 >   Subhayu Basu et al. 2005
 
@@ -286,7 +286,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
     +   other patterns like ellipses can be achieved by placing senders in different spatial places
 +   math. model: five speciesmodel by ODEs
 
-### James Sharpe and Mark Isalan: all possible 3-node networks for stripe-forming
+#### James Sharpe and Mark Isalan: all possible 3-node networks for stripe-forming
 
 ![image-20211012222621128](./Notes_for_PatterFormation.assets/image-20211012222621128.png)
 
@@ -316,7 +316,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 
 
-## Reaction-diffusion model
+### Reaction-diffusion model
 
 ### Tatsuo Shibata: Nodal-Lefty network
 
@@ -332,7 +332,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
     +   mathematical shows paras space similar to turing pattern 
 
-### Nigel Goldenfeld: Stochastic turing pattern
+#### Nigel Goldenfeld: Stochastic turing pattern
 
 >   Robust ecological pattern formation induced by demographic noise
 
@@ -372,7 +372,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
         
 
-### Nigel Goldenfeld & Ron Weiss: sysnthetic bacterial population verifying stochastic turing pattern
+#### Nigel Goldenfeld & Ron Weiss: sysnthetic bacterial population verifying stochastic turing pattern
 
 ![image-20211019195937220](./Notes_for_PatterFormation.assets/image-20211019195937220.png)
 
@@ -380,7 +380,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
 
 +   result: diffuse ratio inhibitor/activotor = 21.6
 
-# Joel Stavans: Robust stochastic turing patterns demographic noise
+#### Joel Stavans: Robust stochastic turing patterns demographic noise
 
 +   findings: **Noise can seed** the formation of transient, stochastic Turing patterns for parameter values in which deterministic patterns do not form. These patterns can then be fixed by downstream genetic commitment pathways.
 
@@ -421,8 +421,7 @@ two kinds of lingands u and v, which satisfy the following conditons:
            HetR activates production of PatS [54], with strength βS
 
         
-
-# model based on cellular turing pattern
+### model based on cellular turing pattern
 
 >    Schweisguth & Corson, Developmental cell review, Self-Organization in Pattern Formation
 
@@ -441,6 +440,8 @@ models in different scale levels:
 3.   live image of gene expression & signaling activity 
      +   self-organization of the early mammalian embryo (Etoc et al.,
          2016)
+
+---
 
 # 2021/10/26 mail: questions about simulating diffusioncoupled with cells
 
