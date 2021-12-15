@@ -100,6 +100,6 @@ jobs:
 
 成功后的效果是这个样子的，如果你自动push代码到`main`分支中，这段代码可以自动将页面配置好，传到`gh-pages`分支。
 
-![actions_fi](/GitPages.asset/action_finished.png)
+![actions_fi](../GitPages.asset/action_finished.png)
 
 注：如果刷新后页面没有更新，可以清楚浏览器缓存数据后，再次刷新。
